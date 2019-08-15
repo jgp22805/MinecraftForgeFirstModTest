@@ -1,0 +1,14 @@
+package com.scream0228.FirstModTest.util;
+
+public class Reference 
+
+{
+
+	public static final String MOD_ID = "fmt";
+	public static final String NAME = "First Mod Test";
+	public static final String VERSION = "1.0";
+	public static final String ACCEPTED_VERSIONS = "[1.12.2]";
+	public static final String CLIENT_PROXY_CLASS = "com.scream0228.FirstModTest.proxy.ClientProxy";
+	public static final String COMMON_PROXY_CLASS = "com.scream0228.FirstModTest.proxy.CommonProxy";
+	
+}

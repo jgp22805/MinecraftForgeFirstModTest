@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        " B ",
+        "   "
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "fmt:ruby_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "fmt:ruby",
+        "count": 9
+    }
+}

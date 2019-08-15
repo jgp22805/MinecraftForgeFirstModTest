@@ -1,0 +1,16 @@
+[
+{
+  "modid": "FMT",
+  "name": "First Mod Test",
+  "description": "My First Mod",
+  "version": "${1.0}",
+  "mcversion": "${1.14.4}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["scream0228"],
+  "credits": "Me, Myself, And I",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

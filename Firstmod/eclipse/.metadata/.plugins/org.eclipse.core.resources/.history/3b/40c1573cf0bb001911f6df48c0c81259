@@ -1,0 +1,58 @@
+package com.scream0228.FirstModTest.items.tools;
+
+import java.awt.Event;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+import javax.swing.SwingUtilities;
+
+import org.lwjgl.input.Mouse;
+
+import com.scream0228.FirstModTest.Main;
+import com.scream0228.FirstModTest.init.ModItems;
+import com.scream0228.FirstModTest.util.IHasModel;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemSword;
+
+public class LightningBolt extends ItemSword implements IHasModel
+{
+
+	public LightningBolt(String name, ToolMaterial material) 
+	{
+		super(material);
+	
+		setUnlocalizedName(name);
+		setRegistryName(name);
+		setCreativeTab(CreativeTabs.COMBAT);
+		
+		ModItems.ITEMS.add(this);
+		
+		/*if(MouseEvent.BUTTON2 == 1)
+		{
+			
+			SummonMinecraftLightningBolt(100.0F);
+			
+		}*/
+		
+	}
+	
+	
+
+	@Override
+	public void registerModels() 
+	{
+	
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
+		
+	}
+	
+	/*public void SummonMinecraftLightningBolt(float damage)
+	{
+		
+		
+		
+	}*/
+	
+}

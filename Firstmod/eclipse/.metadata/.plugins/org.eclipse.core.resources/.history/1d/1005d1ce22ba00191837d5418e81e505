@@ -1,0 +1,5 @@
+package com.scream0228.FirstModTest.proxy;
+
+public class ClientProxy {
+
+}

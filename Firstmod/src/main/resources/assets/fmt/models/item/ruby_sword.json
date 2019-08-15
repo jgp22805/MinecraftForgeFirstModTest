@@ -1,0 +1,6 @@
+{
+   "parent": "item/HandHeld",
+   "textures": {
+       "layer0": "fmt:items/ruby_sword"
+   }
+}
